@@ -67,8 +67,29 @@ function buildBookList() {
     else nt.appendChild(li);
   });
 
-  // Extra books (Apocrypha + Pseudepigrapha)
-  EXTRA_BOOKS.forEach(book => {
+  // Extra books: preserve the reader's requested Apocrypha and Pseudepigrapha order.
+  const groupLabels = {
+    apocrypha: 'Apocrypha',
+    pseudepigrapha: 'Pseudepigrapha',
+    additional: 'Additional related works'
+  };
+  const groupOrder = ['apocrypha', 'pseudepigrapha', 'additional'];
+  const sortedExtraBooks = [...EXTRA_BOOKS].sort((a, b) => {
+    const groupDifference = groupOrder.indexOf(a.navigationGroup || 'additional') -
+      groupOrder.indexOf(b.navigationGroup || 'additional');
+    return groupDifference || (a.navigationOrder || 0) - (b.navigationOrder || 0);
+  });
+  let activeGroup = '';
+  sortedExtraBooks.forEach(book => {
+    const group = groupLabels[book.navigationGroup] ? book.navigationGroup : 'additional';
+    if (group !== activeGroup) {
+      const heading = document.createElement('li');
+      heading.className = 'extra-section-heading';
+      heading.textContent = groupLabels[group];
+      heading.setAttribute('aria-hidden', 'true');
+      extra.appendChild(heading);
+      activeGroup = group;
+    }
     const li = document.createElement('li');
     const name = document.createElement('span');
     name.className = 'extra-book-name';
@@ -79,7 +100,7 @@ function buildBookList() {
     li.append(name, category);
     li.dataset.book = book.id;
     li.dataset.type = 'extra';
-    li.classList.add('extra-book');
+    li.classList.add('extra-book', group);
     li.addEventListener('click', () => {
       isExtraBook = true;
       loadExtraBook(book);
