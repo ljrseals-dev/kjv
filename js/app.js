@@ -70,7 +70,13 @@ function buildBookList() {
   // Extra books (Apocrypha + Pseudepigrapha)
   EXTRA_BOOKS.forEach(book => {
     const li = document.createElement('li');
-    li.textContent = book.name;
+    const name = document.createElement('span');
+    name.className = 'extra-book-name';
+    name.textContent = book.name;
+    const category = document.createElement('span');
+    category.className = 'book-category';
+    category.textContent = book.category || 'Related literature';
+    li.append(name, category);
     li.dataset.book = book.id;
     li.dataset.type = 'extra';
     li.classList.add('extra-book');
