@@ -487,3 +487,23 @@ button.active {
 [data-theme="dark"] .book-list li.extra-book {
   color: #81c784;
 }
+
+
+/* Visible classification labels for extra-book navigation */
+.book-list li.extra-book {
+  display: flex;
+  flex-direction: column;
+  gap: 0.05rem;
+}
+
+.extra-book-name {
+  color: inherit;
+}
+
+.book-category {
+  font-family: var(--font-sans);
+  font-size: 0.62rem;
+  line-height: 1.35;
+  color: var(--text-muted);
+  font-weight: 400;
+}
