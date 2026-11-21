@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+  <meta name="description" content="Clean King James Version + Apocrypha & Pseudepigrapha reader inspired by the Aristotle Reader. Text-only, offline-capable." />
+  <meta name="theme-color" content="#8b1a1a" />
+  <title>KJV + Apocrypha Reader</title>
+  <link rel="stylesheet" href="css/styles.css" />
+  <link rel="manifest" href="manifest.json" />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>✝</text></svg>" />
+</head>
+<body>
+  <header>
+    <button class="menu-toggle" id="btn-menu" aria-label="Toggle books">☰</button>
+    <div class="logo">KJV + Apocrypha <span>text only</span></div>
+    <div class="header-controls">
+      <button id="btn-search" title="Search ( / )">Search</button>
+      <button id="btn-bookmark">☆ Bookmark</button>
+      <button id="btn-bookmarks">Bookmarks</button>
+      <button id="btn-theme">☾ Dark</button>
+    </div>
+  </header>
+
+  <div class="app">
+    <aside class="sidebar" id="sidebar">
+      <h3>Old Testament</h3>
+      <ul class="book-list" id="ot-list"></ul>
+      <h3>New Testament</h3>
+      <ul class="book-list" id="nt-list"></ul>
+      <h3>Apocrypha &amp; Pseudepigrapha</h3>
+      <ul class="book-list" id="extra-list"></ul>
+    </aside>
+
+    <main class="main" id="main">
+      <div id="loading" class="loading">Loading King James Version…</div>
+      <h1 class="book-title"></h1>
+      <div class="chapter-nav"></div>
+      <div class="verses"></div>
+    </main>
+  </div>
+
+  <!-- Search Panel -->
+  <div class="search-panel" id="search-panel">
+    <div class="search-box">
+      <input type="search" id="search-input" placeholder="Search the 66-book KJV…" autocomplete="off" />
+      <button id="btn-close-search">Close</button>
+    </div>
+    <div class="search-results"></div>
+  </div>
+
+  <!-- Bookmarks Panel -->
+  <div class="bookmarks-panel" id="bookmarks-panel">
+    <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:1rem;">
+      <strong>Bookmarks</strong>
+      <button id="btn-close-bookmarks">Close</button>
+    </div>
+    <div id="bookmarks-list"></div>
+  </div>
+
+  <!-- Dictionary Modal -->
+  <div class="modal-overlay" id="dict-modal">
+    <div class="modal">
+      <h3 id="dict-word"></h3>
+      <div id="dict-body"></div>
+      <button class="close-btn" id="dict-close">Close</button>
+    </div>
+  </div>
+
+  <script src="js/app.js"></script>
+  <script>
+    if ('serviceWorker' in navigator) {
+      navigator.serviceWorker.register('sw.js').catch(console.warn);
+    }
+  </script>
+</body>
+</html>
