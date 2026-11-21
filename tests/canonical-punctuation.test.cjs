@@ -6,7 +6,7 @@ const vm = require('node:vm');
 
 const root = path.resolve(__dirname, '..');
 const source = fs.readFileSync(path.join(root, 'js/app.js'), 'utf8');
-const context = vm.createContext({ document: { addEventListener() {} } });
+const context = vm.createContext({ document: { addEventListener() {} }, localStorage: { getItem() { return null; }, setItem() {} } });
 vm.runInContext(source, context, { filename: 'js/app.js' });
 
 function loadBible() {
