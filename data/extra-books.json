@@ -18,7 +18,9 @@
       "sources": [
         "R. H. Charles, ed., APOT, vol. I (1913)",
         "Qumran Aramaic and Hebrew Tobit fragments"
-      ]
+      ],
+      "navigationGroup": "apocrypha",
+      "navigationOrder": 3
     },
     {
       "id": "Judith",
@@ -35,7 +37,9 @@
       "translationStatus": "Verse text deferred.",
       "sources": [
         "R. H. Charles, ed., APOT, vol. I (1913)"
-      ]
+      ],
+      "navigationGroup": "apocrypha",
+      "navigationOrder": 4
     },
     {
       "id": "Wis",
@@ -52,11 +56,13 @@
       "translationStatus": "Verse text deferred.",
       "sources": [
         "R. H. Charles, ed., APOT, vol. I (1913)"
-      ]
+      ],
+      "navigationGroup": "apocrypha",
+      "navigationOrder": 6
     },
     {
       "id": "Sir",
-      "name": "Sirach (Ecclesiasticus)",
+      "name": "Ecclesiasticus",
       "category": "Deuterocanonical / KJV Apocrypha",
       "tradition": "Catholic and Orthodox deuterocanon; Protestant Apocrypha",
       "period": "Written c. 180 BCE; Greek translation by the author's grandson c. 132 BCE",
@@ -70,7 +76,9 @@
       "sources": [
         "R. H. Charles, ed., APOT, vol. I (1913)",
         "Greek translator's prologue"
-      ]
+      ],
+      "navigationGroup": "apocrypha",
+      "navigationOrder": 7
     },
     {
       "id": "Bar",
@@ -87,7 +95,9 @@
       "translationStatus": "Verse text deferred.",
       "sources": [
         "R. H. Charles, ed., APOT, vol. I (1913)"
-      ]
+      ],
+      "navigationGroup": "apocrypha",
+      "navigationOrder": 8
     },
     {
       "id": "EpJer",
@@ -104,11 +114,13 @@
       "translationStatus": "Verse text deferred.",
       "sources": [
         "R. H. Charles, ed., APOT, vol. I (1913)"
-      ]
+      ],
+      "navigationGroup": "apocrypha",
+      "navigationOrder": 9
     },
     {
       "id": "PrAzar",
-      "name": "Prayer of Azariah and Song of the Three Holy Children",
+      "name": "Prayer of Azariah",
       "category": "Daniel addition / KJV Apocrypha",
       "tradition": "Catholic and Orthodox Bibles; Protestant Apocrypha",
       "period": "Hellenistic period; exact date uncertain",
@@ -121,7 +133,9 @@
       "translationStatus": "Verse text deferred.",
       "sources": [
         "R. H. Charles, ed., APOT, vol. I (1913)"
-      ]
+      ],
+      "navigationGroup": "apocrypha",
+      "navigationOrder": 10
     },
     {
       "id": "Sus",
@@ -138,7 +152,9 @@
       "translationStatus": "Verse text deferred.",
       "sources": [
         "R. H. Charles, ed., APOT, vol. I (1913)"
-      ]
+      ],
+      "navigationGroup": "apocrypha",
+      "navigationOrder": 11
     },
     {
       "id": "Bel",
@@ -155,7 +171,9 @@
       "translationStatus": "Verse text deferred.",
       "sources": [
         "R. H. Charles, ed., APOT, vol. I (1913)"
-      ]
+      ],
+      "navigationGroup": "apocrypha",
+      "navigationOrder": 12
     },
     {
       "id": "1Macc",
@@ -172,7 +190,9 @@
       "translationStatus": "Verse text deferred.",
       "sources": [
         "R. H. Charles, ed., APOT, vol. I (1913)"
-      ]
+      ],
+      "navigationGroup": "apocrypha",
+      "navigationOrder": 14
     },
     {
       "id": "2Macc",
@@ -189,7 +209,9 @@
       "translationStatus": "Verse text deferred.",
       "sources": [
         "R. H. Charles, ed., APOT, vol. I (1913)"
-      ]
+      ],
+      "navigationGroup": "apocrypha",
+      "navigationOrder": 15
     },
     {
       "id": "3Macc",
@@ -206,7 +228,9 @@
       "translationStatus": "Verse text deferred.",
       "sources": [
         "R. H. Charles, ed., APOT, vol. I (1913)"
-      ]
+      ],
+      "navigationGroup": "additional",
+      "navigationOrder": 12
     },
     {
       "id": "4Macc",
@@ -223,11 +247,13 @@
       "translationStatus": "Verse text deferred.",
       "sources": [
         "R. H. Charles, ed., APOT, vol. I (1913)"
-      ]
+      ],
+      "navigationGroup": "additional",
+      "navigationOrder": 13
     },
     {
       "id": "1Esd",
-      "name": "1 Esdras (Greek Esdras)",
+      "name": "1 Esdras",
       "category": "Apocrypha",
       "tradition": "Apocrypha in Anglican and Protestant collections; 3 Esdras in some Orthodox/Vulgate arrangements",
       "period": "Probably 2nd–1st century BCE",
@@ -240,11 +266,13 @@
       "translationStatus": "Verse text deferred.",
       "sources": [
         "R. H. Charles, ed., APOT, vol. I (1913)"
-      ]
+      ],
+      "navigationGroup": "apocrypha",
+      "navigationOrder": 1
     },
     {
       "id": "2Esd",
-      "name": "2 Esdras (4 Ezra)",
+      "name": "2 Esdras",
       "category": "Jewish apocalypse with Christian additions",
       "tradition": "Appendix to the Latin Vulgate; Apocrypha in some Protestant editions; not in most Eastern canons",
       "period": "Jewish core commonly dated c.  late 1st century CE; Christian additions later",
@@ -257,7 +285,9 @@
       "translationStatus": "Verse text deferred; source editions must specify whether they include only 4 Ezra or all 2 Esdras.",
       "sources": [
         "R. H. Charles, ed., APOT, vol. II (1913)"
-      ]
+      ],
+      "navigationGroup": "apocrypha",
+      "navigationOrder": 2
     },
     {
       "id": "PrMan",
@@ -274,7 +304,9 @@
       "translationStatus": "Verse text deferred.",
       "sources": [
         "R. H. Charles, ed., APOT, vol. I (1913)"
-      ]
+      ],
+      "navigationGroup": "apocrypha",
+      "navigationOrder": 13
     },
     {
       "id": "AddEsth",
@@ -291,11 +323,13 @@
       "translationStatus": "Verse text deferred.",
       "sources": [
         "R. H. Charles, ed., APOT, vol. I (1913)"
-      ]
+      ],
+      "navigationGroup": "apocrypha",
+      "navigationOrder": 5
     },
     {
       "id": "Enoch",
-      "name": "1 Enoch (Ethiopic Enoch)",
+      "name": "Enoch",
       "category": "Old Testament Pseudepigrapha",
       "tradition": "Canonical in the Ethiopian Orthodox Tewahedo Church; outside most Jewish and Christian canons",
       "period": "Composite collection, with major sections from the 3rd–1st centuries BCE",
@@ -310,7 +344,9 @@
         "R. H. Charles, The Book of Enoch (1912)",
         "R. H. Charles, ed., APOT, vol. II (1913)",
         "Qumran Aramaic Enoch fragments"
-      ]
+      ],
+      "navigationGroup": "pseudepigrapha",
+      "navigationOrder": 1
     },
     {
       "id": "Jub",
@@ -329,11 +365,13 @@
         "R. H. Charles, The Book of Jubilees (1902)",
         "R. H. Charles, ed., APOT, vol. II (1913)",
         "Qumran Hebrew Jubilees fragments"
-      ]
+      ],
+      "navigationGroup": "pseudepigrapha",
+      "navigationOrder": 3
     },
     {
       "id": "Jasher",
-      "name": "Book of Jasher (Sefer ha-Yashar, 1887 English edition)",
+      "name": "Jasher",
       "category": "Later Jewish legendary history — not the lost biblical book",
       "tradition": "Medieval Jewish work; not part of Jewish or Christian biblical canons",
       "period": "Medieval Hebrew composition; English edition published 1887",
@@ -346,7 +384,9 @@
       "translationStatus": "Verse text deferred; identify and verify the precise 1887 edition before importing text.",
       "sources": [
         "Sefer ha-Yashar, 1887 English edition; edition-specific bibliographic verification required"
-      ]
+      ],
+      "navigationGroup": "pseudepigrapha",
+      "navigationOrder": 2
     },
     {
       "id": "2Enoch",
@@ -363,7 +403,9 @@
       "translationStatus": "Verse text deferred; use a separately verified public-domain edition.",
       "sources": [
         "R. H. Charles, ed., APOT, vol. II (1913)"
-      ]
+      ],
+      "navigationGroup": "additional",
+      "navigationOrder": 21
     },
     {
       "id": "3Enoch",
@@ -380,7 +422,9 @@
       "translationStatus": "Verse text deferred; translation and edition rights must be checked separately.",
       "sources": [
         "Hekhalot literature studies; manuscript-specific cataloging required"
-      ]
+      ],
+      "navigationGroup": "additional",
+      "navigationOrder": 22
     },
     {
       "id": "Test12",
@@ -397,7 +441,9 @@
       "translationStatus": "Verse text deferred; R. H. Charles's edition/translation is a candidate public-domain source.",
       "sources": [
         "R. H. Charles, ed., APOT, vol. II (1913)"
-      ]
+      ],
+      "navigationGroup": "additional",
+      "navigationOrder": 23
     },
     {
       "id": "AssMos",
@@ -414,7 +460,9 @@
       "translationStatus": "Verse text deferred; R. H. Charles's 1897/1913 translation is a candidate public-domain source.",
       "sources": [
         "R. H. Charles, ed., APOT, vol. II (1913)"
-      ]
+      ],
+      "navigationGroup": "additional",
+      "navigationOrder": 24
     },
     {
       "id": "2Bar",
@@ -431,7 +479,9 @@
       "translationStatus": "Verse text deferred; R. H. Charles's translation is a candidate public-domain source.",
       "sources": [
         "R. H. Charles, ed., APOT, vol. II (1913)"
-      ]
+      ],
+      "navigationGroup": "additional",
+      "navigationOrder": 25
     },
     {
       "id": "3Bar",
@@ -448,7 +498,9 @@
       "translationStatus": "Verse text deferred; R. H. Charles's translation is a candidate public-domain source.",
       "sources": [
         "R. H. Charles, ed., APOT, vol. II (1913)"
-      ]
+      ],
+      "navigationGroup": "additional",
+      "navigationOrder": 26
     },
     {
       "id": "ApocAbr",
@@ -465,7 +517,9 @@
       "translationStatus": "Verse text deferred; check edition and translation provenance before import.",
       "sources": [
         "R. H. Charles, ed., APOT, vol. II (1913)"
-      ]
+      ],
+      "navigationGroup": "additional",
+      "navigationOrder": 27
     },
     {
       "id": "AscIsa",
@@ -482,7 +536,9 @@
       "translationStatus": "Verse text deferred; R. H. Charles's edition is a candidate public-domain source.",
       "sources": [
         "R. H. Charles, ed., APOT, vol. II (1913)"
-      ]
+      ],
+      "navigationGroup": "additional",
+      "navigationOrder": 28
     },
     {
       "id": "PsSol",
@@ -499,7 +555,9 @@
       "translationStatus": "Verse text deferred; R. H. Charles's 1913 translation is a candidate public-domain source.",
       "sources": [
         "R. H. Charles, ed., APOT, vol. II (1913)"
-      ]
+      ],
+      "navigationGroup": "additional",
+      "navigationOrder": 29
     },
     {
       "id": "SibOr",
@@ -516,7 +574,9 @@
       "translationStatus": "Verse text deferred; verify the specific book and edition.",
       "sources": [
         "R. H. Charles, ed., APOT, vol. II (1913)"
-      ]
+      ],
+      "navigationGroup": "additional",
+      "navigationOrder": 30
     },
     {
       "id": "LetAris",
@@ -533,7 +593,9 @@
       "translationStatus": "Verse text deferred; R. H. Charles-era public-domain edition is a candidate source.",
       "sources": [
         "R. H. Charles, ed., APOT, vol. II (1913)"
-      ]
+      ],
+      "navigationGroup": "additional",
+      "navigationOrder": 31
     },
     {
       "id": "AdamEve",
@@ -550,7 +612,9 @@
       "translationStatus": "Verse text deferred; choose and identify one recension before importing text.",
       "sources": [
         "R. H. Charles, ed., APOT, vol. II (1913)"
-      ]
+      ],
+      "navigationGroup": "additional",
+      "navigationOrder": 32
     },
     {
       "id": "MartIsa",
@@ -567,7 +631,9 @@
       "translationStatus": "Verse text deferred; R. H. Charles's translation is a candidate public-domain source.",
       "sources": [
         "R. H. Charles, ed., APOT, vol. II (1913)"
-      ]
+      ],
+      "navigationGroup": "additional",
+      "navigationOrder": 33
     },
     {
       "id": "Ahikar",
@@ -585,7 +651,9 @@
       "sources": [
         "R. H. Charles, ed., APOT, vol. II (1913)",
         "Elephantine Aramaic papyrus witnesses"
-      ]
+      ],
+      "navigationGroup": "additional",
+      "navigationOrder": 34
     },
     {
       "id": "Zadokite",
@@ -603,7 +671,9 @@
       "sources": [
         "R. H. Charles, ed., APOT, vol. II (1913)",
         "Qumran Hebrew fragments and Cairo Geniza manuscripts"
-      ]
+      ],
+      "navigationGroup": "additional",
+      "navigationOrder": 35
     },
     {
       "id": "OdesSol",
@@ -621,7 +691,9 @@
       "sources": [
         "J. Rendel Harris, The Odes and Psalms of Solomon (1909)",
         "R. H. Charles, ed., APOT, vol. II (1913)"
-      ]
+      ],
+      "navigationGroup": "additional",
+      "navigationOrder": 36
     }
   ]
 }
