@@ -1,10 +1,11 @@
-const CACHE_NAME = 'kjv-reader-v1';
+const CACHE_NAME = 'kjv-reader-v2';
 const ASSETS = [
   './',
   './index.html',
   './css/styles.css',
   './js/app.js',
   './data/kjv.json',
+  './data/extra-books.json',
   './manifest.json'
 ];
 

@@ -1,0 +1,699 @@
+{
+  "schemaVersion": 1,
+  "description": "Historical catalog metadata only. No verse text is included. Canonical status is tradition-specific and dates are approximate.",
+  "books": [
+    {
+      "id": "Tobit",
+      "name": "Tobit",
+      "category": "Deuterocanonical / KJV Apocrypha",
+      "tradition": "Catholic and Orthodox deuterocanon; Protestant Apocrypha",
+      "period": "Probably 3rd–2nd century BCE",
+      "composition": "A Jewish diaspora novella set among deportees from the northern kingdom. The story uses the names of Tobit, his son Tobias, Sarah, and the angel Raphael; the named setting is literary and should not be read as proof of the author's identity.",
+      "language": "Originally composed in a Semitic language, commonly reconstructed as Aramaic or Hebrew; Greek recensions survive.",
+      "manuscripts": "Greek textual forms differ substantially. Aramaic and Hebrew fragments from Qumran attest an early Semitic textual tradition.",
+      "contents": "Piety in exile, almsgiving, burial of the dead, family duty, healing, marriage, and angelic guidance.",
+      "history": "Tobit circulated in Jewish communities in the Second Temple period and entered the Greek Septuagint tradition. It is received as Scripture in Catholic and many Orthodox canons, while most Protestant traditions classify it as Apocrypha. Its Qumran fragments show that the work existed in multiple Semitic copies before the medieval manuscript era.",
+      "canonicalStatus": "Canon status varies by tradition; do not label it universally canonical or universally non-canonical.",
+      "translationStatus": "Verse text intentionally not included in this metadata release.",
+      "sources": [
+        "R. H. Charles, ed., APOT, vol. I (1913)",
+        "Qumran Aramaic and Hebrew Tobit fragments"
+      ],
+      "navigationGroup": "apocrypha",
+      "navigationOrder": 3
+    },
+    {
+      "id": "Judith",
+      "name": "Judith",
+      "category": "Deuterocanonical / KJV Apocrypha",
+      "tradition": "Catholic and Orthodox deuterocanon; Protestant Apocrypha",
+      "period": "Likely 2nd–1st century BCE",
+      "composition": "A Jewish historical-theological novella whose geography and chronology deliberately combine or rearrange historical settings. The narrative is not a straightforward contemporary chronicle.",
+      "language": "Preserved in Greek; the precise language of composition remains debated.",
+      "manuscripts": "Greek Septuagint witnesses and later versions, including Latin and Syriac traditions.",
+      "contents": "Judith, a widow from Bethulia, enters the camp of the Assyrian commander Holofernes and saves her people; themes include courage, prayer, fidelity, and deliverance.",
+      "history": "Judith is preserved among the Greek scriptural books and was transmitted in the Vulgate. Catholic and Orthodox traditions receive it as deuterocanonical Scripture; Protestant editions commonly place it in the Apocrypha. Its stylized historical setting has led scholars to treat it primarily as theological narrative rather than dependable military history.",
+      "canonicalStatus": "Deuterocanonical in Catholic and Orthodox traditions; Apocrypha in common Protestant classifications.",
+      "translationStatus": "Verse text deferred.",
+      "sources": [
+        "R. H. Charles, ed., APOT, vol. I (1913)"
+      ],
+      "navigationGroup": "apocrypha",
+      "navigationOrder": 4
+    },
+    {
+      "id": "Wis",
+      "name": "Wisdom of Solomon",
+      "category": "Deuterocanonical / KJV Apocrypha",
+      "tradition": "Catholic and Orthodox deuterocanon; Protestant Apocrypha",
+      "period": "Probably late 1st century BCE to early 1st century CE",
+      "composition": "Anonymous Jewish wisdom work written in Greek and placed rhetorically in Solomon's voice; the attribution is literary, not a claim of Solomonic authorship.",
+      "language": "Greek",
+      "manuscripts": "Greek Septuagint manuscripts; later Latin and other versions.",
+      "contents": "Wisdom, righteousness, immortality, divine justice, the fate of the wicked, and a theological retelling of Israel's history in Egypt.",
+      "history": "Composed in the Hellenistic Jewish world, often associated with Alexandria because of its Greek language and cultural setting. It draws on Israelite wisdom traditions while engaging Greek philosophical vocabulary. It is included in Catholic and Orthodox Old Testament canons and classified as Apocrypha in many Protestant traditions.",
+      "canonicalStatus": "Deuterocanonical in Catholic and Orthodox traditions; Apocrypha in Protestant collections.",
+      "translationStatus": "Verse text deferred.",
+      "sources": [
+        "R. H. Charles, ed., APOT, vol. I (1913)"
+      ],
+      "navigationGroup": "apocrypha",
+      "navigationOrder": 6
+    },
+    {
+      "id": "Sir",
+      "name": "Ecclesiasticus",
+      "category": "Deuterocanonical / KJV Apocrypha",
+      "tradition": "Catholic and Orthodox deuterocanon; Protestant Apocrypha",
+      "period": "Written c. 180 BCE; Greek translation by the author's grandson c. 132 BCE",
+      "composition": "Wisdom collection by Jesus ben Sira of Jerusalem. The Greek prologue by the translator describes the work's translation from Hebrew.",
+      "language": "Originally Hebrew; ancient Greek translation; substantial Hebrew portions survive.",
+      "manuscripts": "Hebrew fragments from the Cairo Geniza and Qumran/Masada, alongside Greek and Syriac witnesses.",
+      "contents": "Practical wisdom, ethics, family and community life, worship, praise of Israel's ancestors, and a long encomium of the fathers.",
+      "history": "Sirach is one of the best-attested Jewish wisdom books outside the Hebrew Bible. Its Hebrew origin is confirmed by surviving manuscript fragments. The Greek translator's prologue provides unusually valuable evidence for the book's date and translation history. It became Ecclesiasticus in Latin Christian usage and is deuterocanonical in Catholic and Orthodox traditions.",
+      "canonicalStatus": "Deuterocanonical in Catholic and Orthodox traditions; Apocrypha in Protestant collections; not in the Jewish Tanakh.",
+      "translationStatus": "Verse text deferred.",
+      "sources": [
+        "R. H. Charles, ed., APOT, vol. I (1913)",
+        "Greek translator's prologue"
+      ],
+      "navigationGroup": "apocrypha",
+      "navigationOrder": 7
+    },
+    {
+      "id": "Bar",
+      "name": "Baruch",
+      "category": "Deuterocanonical / KJV Apocrypha",
+      "tradition": "Catholic and Orthodox traditions; Protestant Apocrypha",
+      "period": "Composite work; commonly dated across the 2nd–1st centuries BCE",
+      "composition": "A composite work presented under the name of Baruch, traditionally Jeremiah's scribe. Its sections likely reflect different stages of composition.",
+      "language": "Greek is the principal complete form; Semitic origins are proposed for portions.",
+      "manuscripts": "Greek Septuagint tradition and ancient versions; textual relationship with the Letter of Jeremiah varies by tradition.",
+      "contents": "Confession, communal prayer, reflections on wisdom and the law, and consolation for Jerusalem and the exiles.",
+      "history": "Baruch is transmitted in the Greek and Latin biblical traditions, often alongside Jeremiah. The book's internal shifts suggest a compilation rather than a single document written at one time by the historical Baruch. In Catholic Bibles the Letter of Jeremiah is commonly chapter 6; other traditions transmit it separately or omit it.",
+      "canonicalStatus": "Deuterocanonical in Catholic and many Orthodox traditions; Apocrypha in Protestant collections.",
+      "translationStatus": "Verse text deferred.",
+      "sources": [
+        "R. H. Charles, ed., APOT, vol. I (1913)"
+      ],
+      "navigationGroup": "apocrypha",
+      "navigationOrder": 8
+    },
+    {
+      "id": "EpJer",
+      "name": "Letter of Jeremiah",
+      "category": "Deuterocanonical / KJV Apocrypha",
+      "tradition": "Often Baruch 6 in Catholic Bibles; separate in some traditions",
+      "period": "Likely Hellenistic period, perhaps 2nd century BCE",
+      "composition": "Anonymous polemic framed as a letter from Jeremiah to Judean exiles in Babylon; the attribution is pseudonymous.",
+      "language": "Greek; a Semitic Vorlage has been debated.",
+      "manuscripts": "Greek Septuagint manuscripts and versions; attached to Baruch in many Christian Bibles.",
+      "contents": "A sustained warning against worship of manufactured idols, emphasizing their inability to speak, act, protect, or save.",
+      "history": "The work is linked to Jeremiah 29 by its exilic setting but is a separate literary composition. Its placement varies: it is chapter 6 of Baruch in the Vulgate and many Catholic editions, while Orthodox and Protestant arrangements may list it separately. Its anti-idolatry argument reflects Jewish religious polemic in the Hellenistic era.",
+      "canonicalStatus": "Included in Catholic and Orthodox deuterocanonical collections in differing arrangements; Protestant Apocrypha.",
+      "translationStatus": "Verse text deferred.",
+      "sources": [
+        "R. H. Charles, ed., APOT, vol. I (1913)"
+      ],
+      "navigationGroup": "apocrypha",
+      "navigationOrder": 9
+    },
+    {
+      "id": "PrAzar",
+      "name": "Prayer of Azariah",
+      "category": "Daniel addition / KJV Apocrypha",
+      "tradition": "Catholic and Orthodox Bibles; Protestant Apocrypha",
+      "period": "Hellenistic period; exact date uncertain",
+      "composition": "Anonymous Greek additions embedded in the Greek form of Daniel; the prayer is attributed to Azariah within the furnace narrative.",
+      "language": "Greek in the principal expanded form; Semitic origins have been proposed for parts.",
+      "manuscripts": "Septuagint and Theodotion forms of Daniel; placement and wording differ among textual traditions.",
+      "contents": "Azariah's confession and prayer, the angelic protection of the three youths, and a hymn calling creation to praise God.",
+      "history": "The material expands Daniel 3 in Greek and is absent from the Masoretic Hebrew-Aramaic form. In Catholic and Orthodox Bibles it is incorporated into Daniel; Protestant Apocrypha editions commonly print it as a separate unit. Verse numbering and the boundaries of the Song vary by edition.",
+      "canonicalStatus": "Deuterocanonical addition in Catholic and Orthodox traditions; Apocrypha in Protestant editions.",
+      "translationStatus": "Verse text deferred.",
+      "sources": [
+        "R. H. Charles, ed., APOT, vol. I (1913)"
+      ],
+      "navigationGroup": "apocrypha",
+      "navigationOrder": 10
+    },
+    {
+      "id": "Sus",
+      "name": "Susanna",
+      "category": "Daniel addition / KJV Apocrypha",
+      "tradition": "Catholic and Orthodox Bibles; Protestant Apocrypha",
+      "period": "Hellenistic period; exact date uncertain",
+      "composition": "Anonymous court tale attached to Daniel, whose young wisdom exposes the false testimony of two elders.",
+      "language": "Greek in the principal Septuagint form; an alternate form is associated with Theodotion.",
+      "manuscripts": "Two major Greek forms, commonly called Old Greek and Theodotion, differ in wording and arrangement.",
+      "contents": "Susanna is falsely accused by elders; Daniel interrogates the witnesses separately and reveals their contradiction.",
+      "history": "Susanna circulated as an addition to Daniel in Greek textual traditions. The two principal Greek forms differ, making it an important case study in the textual history of Daniel. It is included within Daniel in Catholic and Orthodox Bibles and printed among the Apocrypha in many Protestant editions.",
+      "canonicalStatus": "Deuterocanonical addition in Catholic and Orthodox traditions; Apocrypha in Protestant editions.",
+      "translationStatus": "Verse text deferred.",
+      "sources": [
+        "R. H. Charles, ed., APOT, vol. I (1913)"
+      ],
+      "navigationGroup": "apocrypha",
+      "navigationOrder": 11
+    },
+    {
+      "id": "Bel",
+      "name": "Bel and the Dragon",
+      "category": "Daniel addition / KJV Apocrypha",
+      "tradition": "Catholic and Orthodox Bibles; Protestant Apocrypha",
+      "period": "Hellenistic period; exact date uncertain",
+      "composition": "Two Jewish tales attached to Daniel: the exposure of the priests of Bel and the defeat of a revered dragon.",
+      "language": "Greek in the principal expanded Daniel tradition; possible Semitic antecedents are debated.",
+      "manuscripts": "Septuagint and Theodotion forms, with differences in wording and sequence.",
+      "contents": "Daniel demonstrates that Bel's offerings are consumed by priests, then exposes the mortality of the dragon worshipped in Babylon.",
+      "history": "Bel and the Dragon is transmitted as the final Greek addition to Daniel. It uses satire and detective-like reasoning to challenge idolatry. It is absent from the Masoretic form of Daniel but appears in Catholic and Orthodox Bibles and in Protestant Apocrypha collections.",
+      "canonicalStatus": "Deuterocanonical addition in Catholic and Orthodox traditions; Apocrypha in Protestant editions.",
+      "translationStatus": "Verse text deferred.",
+      "sources": [
+        "R. H. Charles, ed., APOT, vol. I (1913)"
+      ],
+      "navigationGroup": "apocrypha",
+      "navigationOrder": 12
+    },
+    {
+      "id": "1Macc",
+      "name": "1 Maccabees",
+      "category": "Deuterocanonical / KJV Apocrypha",
+      "tradition": "Catholic and Orthodox deuterocanon; Protestant Apocrypha",
+      "period": "Late 2nd century BCE",
+      "composition": "Anonymous Jewish historical narrative, probably composed in Judea, describing the revolt and Hasmonean rise.",
+      "language": "Originally Hebrew; preserved completely in Greek.",
+      "manuscripts": "Greek Septuagint witnesses and ancient translations; the Hebrew original is lost.",
+      "contents": "Events from Alexander's successors through the Maccabean revolt, temple purification, and the leadership of Judas, Jonathan, and Simon.",
+      "history": "1 Maccabees is a major source for the history of Judea under Seleucid rule and the Hasmonean revolt (167–160s BCE and aftermath). Its generally favorable presentation of the Hasmonean family makes its perspective important to evaluate. The work is preserved in Greek and was translated into Latin; it is canonical in Catholic and Orthodox traditions and Apocrypha in Protestant collections.",
+      "canonicalStatus": "Deuterocanonical in Catholic and Orthodox traditions; Apocrypha in Protestant collections; not in the Jewish Tanakh.",
+      "translationStatus": "Verse text deferred.",
+      "sources": [
+        "R. H. Charles, ed., APOT, vol. I (1913)"
+      ],
+      "navigationGroup": "apocrypha",
+      "navigationOrder": 14
+    },
+    {
+      "id": "2Macc",
+      "name": "2 Maccabees",
+      "category": "Deuterocanonical / KJV Apocrypha",
+      "tradition": "Catholic and Orthodox deuterocanon; Protestant Apocrypha",
+      "period": "Late 2nd to early 1st century BCE",
+      "composition": "An epitome of a five-volume history by Jason of Cyrene, preceded by two letters addressed to Jews in Egypt.",
+      "language": "Greek",
+      "manuscripts": "Greek textual tradition; ancient Latin and other versions.",
+      "contents": "Persecution under Antiochus IV, martyrdom stories, temple purification, Judas Maccabeus, resurrection, prayer for the dead, and divine justice.",
+      "history": "Despite its title, 2 Maccabees is not simply a sequel or abridgment of 1 Maccabees. It covers overlapping events from a different literary and theological perspective and explicitly identifies itself as an epitome of Jason of Cyrene's larger work. It is especially important for the history of Jewish beliefs about resurrection and martyrdom.",
+      "canonicalStatus": "Deuterocanonical in Catholic and Orthodox traditions; Apocrypha in Protestant collections.",
+      "translationStatus": "Verse text deferred.",
+      "sources": [
+        "R. H. Charles, ed., APOT, vol. I (1913)"
+      ],
+      "navigationGroup": "apocrypha",
+      "navigationOrder": 15
+    },
+    {
+      "id": "3Macc",
+      "name": "3 Maccabees",
+      "category": "Orthodox Apocrypha",
+      "tradition": "Included in many Orthodox Septuagint collections; not in Roman Catholic canon or common KJV Apocrypha",
+      "period": "Probably 1st century BCE or 1st century CE",
+      "composition": "Anonymous Greek Jewish diaspora narrative; despite its title, it is not about the Maccabean revolt.",
+      "language": "Greek",
+      "manuscripts": "Greek Septuagint manuscripts and later versions.",
+      "contents": "A persecution story set under Ptolemy IV, in which Egyptian Jews face a threat involving elephants and are delivered through divine intervention.",
+      "history": "3 Maccabees is misnamed in relation to 1 and 2 Maccabees: its setting is Ptolemaic Egypt, not the Hasmonean revolt. It is included in many Eastern Orthodox Old Testament collections but not in the Roman Catholic canon or the usual Protestant Apocrypha. Its historical setting and narrative details are debated.",
+      "canonicalStatus": "Received in many Orthodox traditions; outside Catholic and Protestant canonical lists.",
+      "translationStatus": "Verse text deferred.",
+      "sources": [
+        "R. H. Charles, ed., APOT, vol. I (1913)"
+      ],
+      "navigationGroup": "additional",
+      "navigationOrder": 12
+    },
+    {
+      "id": "4Macc",
+      "name": "4 Maccabees",
+      "category": "Jewish philosophical / Orthodox appendix",
+      "tradition": "Appendix in some Orthodox Bibles; not generally canonical",
+      "period": "Probably 1st century CE",
+      "composition": "Anonymous Greek philosophical sermon using the martyrdoms of 2 Maccabees to argue that devout reason can govern the passions.",
+      "language": "Greek",
+      "manuscripts": "Greek manuscript tradition; often transmitted after 3 Maccabees.",
+      "contents": "A philosophical discourse on reason, virtue, and self-control, illustrated by Eleazar and the seven brothers and their mother.",
+      "history": "4 Maccabees is not a continuation of the narrative of 3 Maccabees. It reworks martyrdom traditions familiar from 2 Maccabees through Hellenistic Jewish philosophical argument. Some Orthodox Bibles include it as an appendix; most traditions do not treat it as canonical Scripture.",
+      "canonicalStatus": "Non-canonical in most traditions; appendix in some Orthodox editions.",
+      "translationStatus": "Verse text deferred.",
+      "sources": [
+        "R. H. Charles, ed., APOT, vol. I (1913)"
+      ],
+      "navigationGroup": "additional",
+      "navigationOrder": 13
+    },
+    {
+      "id": "1Esd",
+      "name": "1 Esdras",
+      "category": "Apocrypha",
+      "tradition": "Apocrypha in Anglican and Protestant collections; 3 Esdras in some Orthodox/Vulgate arrangements",
+      "period": "Probably 2nd–1st century BCE",
+      "composition": "Greek retelling and rearrangement of material from Chronicles, Ezra, and Nehemiah, with the added story of the three bodyguards' contest.",
+      "language": "Greek; based substantially on Hebrew scriptural material.",
+      "manuscripts": "Septuagint manuscripts; textual relationship with Ezra-Nehemiah is complex.",
+      "contents": "Josiah, the exile, return under Cyrus, temple restoration, Ezra, and the debate over the strongest force in the world.",
+      "history": "1 Esdras overlaps with canonical Chronicles, Ezra, and Nehemiah but rearranges material and includes the independent 'three youths' episode. Its numbering varies across traditions: Greek/Orthodox 1 Esdras is often called 3 Esdras in Latin contexts, while canonical Ezra may be called 1 Esdras. Labels in this reader will use the common English title and identify the tradition.",
+      "canonicalStatus": "Apocrypha in Protestant/Anglican collections; received differently in Orthodox and Latin traditions.",
+      "translationStatus": "Verse text deferred.",
+      "sources": [
+        "R. H. Charles, ed., APOT, vol. I (1913)"
+      ],
+      "navigationGroup": "apocrypha",
+      "navigationOrder": 1
+    },
+    {
+      "id": "2Esd",
+      "name": "2 Esdras",
+      "category": "Jewish apocalypse with Christian additions",
+      "tradition": "Appendix to the Latin Vulgate; Apocrypha in some Protestant editions; not in most Eastern canons",
+      "period": "Jewish core commonly dated c.  late 1st century CE; Christian additions later",
+      "composition": "Composite apocalypse. Chapters 3–14 (4 Ezra) are Jewish; chapters 1–2 and 15–16 are later Christian additions in the Latin form.",
+      "language": "Jewish core likely composed in Hebrew; preserved through Greek and Latin transmission, with ancient versions in several languages.",
+      "manuscripts": "Latin is the basis of many Western editions; Syriac, Ethiopic, Arabic, Armenian, and other witnesses preserve forms of the work.",
+      "contents": "Ezra's dialogues with the angel Uriel about suffering, justice, the destruction of Jerusalem, and hope for the age to come.",
+      "history": "The title is notoriously unstable. The Jewish apocalypse commonly called 4 Ezra or 4 Esdras is chapters 3–14 of the Latin 2 Esdras; the surrounding chapters are Christian additions. The work responds to catastrophe after the destruction of the Second Temple in 70 CE and became influential in Jewish and Christian apocalyptic thought. This catalog separates the Jewish core from the later Christian framing.",
+      "canonicalStatus": "Not in the Jewish Tanakh or most major Christian canons; included in some biblical appendices and lectionary traditions.",
+      "translationStatus": "Verse text deferred; source editions must specify whether they include only 4 Ezra or all 2 Esdras.",
+      "sources": [
+        "R. H. Charles, ed., APOT, vol. II (1913)"
+      ],
+      "navigationGroup": "apocrypha",
+      "navigationOrder": 2
+    },
+    {
+      "id": "PrMan",
+      "name": "Prayer of Manasseh",
+      "category": "Apocrypha",
+      "tradition": "Appendix in some Greek and Slavonic Bibles; Apocrypha in Anglican editions",
+      "period": "Probably Hellenistic or early Roman period",
+      "composition": "Anonymous penitential prayer attributed to Manasseh, king of Judah, drawing on the account of his repentance in 2 Chronicles 33.",
+      "language": "Greek in the principal transmitted form; a Hebrew or Aramaic origin has been proposed but is not established.",
+      "manuscripts": "Greek biblical manuscripts and later versions; placement varies.",
+      "contents": "A confession of sin, appeal to divine mercy, and acknowledgment of God's power and compassion.",
+      "history": "The prayer expands the brief account of Manasseh's repentance in 2 Chronicles 33. It appears in some Greek manuscript appendices and in Anglican Apocrypha collections, but its placement and status are not uniform. It is a liturgical and devotional text in several Christian traditions.",
+      "canonicalStatus": "Apocrypha or appendix depending on tradition; not in the Jewish Tanakh or Roman Catholic canon.",
+      "translationStatus": "Verse text deferred.",
+      "sources": [
+        "R. H. Charles, ed., APOT, vol. I (1913)"
+      ],
+      "navigationGroup": "apocrypha",
+      "navigationOrder": 13
+    },
+    {
+      "id": "AddEsth",
+      "name": "Additions to Esther",
+      "category": "Daniel/Esther additions / KJV Apocrypha",
+      "tradition": "Catholic and Orthodox Bibles; Protestant Apocrypha",
+      "period": "Hellenistic period, before the Greek translation of Esther circulated",
+      "composition": "Six Greek expansions integrated into the Septuagint form of Esther, including prayers, dreams, royal edicts, and interpretive framing.",
+      "language": "Greek in the expanded form; the relationship to Hebrew Esther is textual and literary.",
+      "manuscripts": "Septuagint and related Greek recensions; additions are placed differently in modern editions.",
+      "contents": "Mordecai's dream, royal edicts, prayers of Mordecai and Esther, Esther's audience with the king, and the interpretation of the dream.",
+      "history": "The Greek form of Esther contains substantial material absent from the Masoretic Hebrew text. Modern Catholic editions usually integrate the additions into Esther with chapter/verse markers or supplementary sections; Protestant editions commonly print them separately. The additions make explicit references to God and prayer that are absent or less explicit in the Hebrew form.",
+      "canonicalStatus": "Deuterocanonical additions in Catholic and Orthodox traditions; Apocrypha in Protestant editions.",
+      "translationStatus": "Verse text deferred.",
+      "sources": [
+        "R. H. Charles, ed., APOT, vol. I (1913)"
+      ],
+      "navigationGroup": "apocrypha",
+      "navigationOrder": 5
+    },
+    {
+      "id": "Enoch",
+      "name": "Enoch",
+      "category": "Old Testament Pseudepigrapha",
+      "tradition": "Canonical in the Ethiopian Orthodox Tewahedo Church; outside most Jewish and Christian canons",
+      "period": "Composite collection, with major sections from the 3rd–1st centuries BCE",
+      "composition": "A collection of writings attributed to Enoch, not a single-authored book. Major units include the Book of the Watchers, Parables, Astronomical Book, Dream Visions, and Epistle of Enoch.",
+      "language": "Originally composed in Aramaic for much of the work; complete text survives in Ge'ez (Classical Ethiopic), with Greek and Aramaic fragments.",
+      "manuscripts": "Multiple Aramaic fragments among the Dead Sea Scrolls; Greek fragments; complete Ethiopic manuscript tradition.",
+      "contents": "Watchers and giants, judgment, heavenly journeys, cosmic order, visions of history, resurrection, and the coming of the chosen or righteous one.",
+      "history": "1 Enoch is a major witness to Second Temple Jewish apocalyptic literature. The Qumran Aramaic fragments establish that several constituent sections circulated in Jewish communities before the Common Era. The complete text survives in Ge'ez, preserved by the Ethiopian Christian tradition. Jude 14–15 quotes a passage corresponding to 1 Enoch 1:9. Its canonical status is distinctive: it is Scripture in the Ethiopian Orthodox Tewahedo Church but not in the Jewish Tanakh or most other Christian canons.",
+      "canonicalStatus": "Canonical in Ethiopian Orthodox Tewahedo tradition; non-canonical or pseudepigraphal in most other traditions.",
+      "translationStatus": "Verse text deferred; R. H. Charles's 1912/1917 English editions are candidate public-domain sources in the United States.",
+      "sources": [
+        "R. H. Charles, The Book of Enoch (1912)",
+        "R. H. Charles, ed., APOT, vol. II (1913)",
+        "Qumran Aramaic Enoch fragments"
+      ],
+      "navigationGroup": "pseudepigrapha",
+      "navigationOrder": 1
+    },
+    {
+      "id": "Jub",
+      "name": "Jubilees",
+      "category": "Old Testament Pseudepigrapha",
+      "tradition": "Canonical in the Ethiopian Orthodox Tewahedo Church; outside most other canons",
+      "period": "Usually dated to the 2nd century BCE",
+      "composition": "Anonymous Jewish rewriting of Genesis and the early chapters of Exodus, presented as revelation to Moses through an angel.",
+      "language": "Originally Hebrew; fragments survive from Qumran. Complete text survives in Ge'ez, with Greek, Latin, and Syriac remnants.",
+      "manuscripts": "Numerous Hebrew fragments among the Dead Sea Scrolls; complete Ethiopic witnesses and fragments in other ancient versions.",
+      "contents": "Primeval history, patriarchs, covenant, law, festivals, purity, angelology, and chronology organized by jubilees and sabbatical periods.",
+      "history": "Jubilees is a key Second Temple Jewish rewriting of biblical history. Its Qumran copies show that it was valued by at least some Jewish groups before 70 CE. It reshapes Genesis and Exodus through a strict calendrical and legal framework and presents its narrative as heavenly revelation to Moses. It is canonical in the Ethiopian Orthodox Tewahedo Church and outside most other biblical canons.",
+      "canonicalStatus": "Canonical in Ethiopian Orthodox Tewahedo tradition; pseudepigraphal/non-canonical in most other traditions.",
+      "translationStatus": "Verse text deferred; R. H. Charles's 1902/1913 translation is a candidate public-domain source in the United States.",
+      "sources": [
+        "R. H. Charles, The Book of Jubilees (1902)",
+        "R. H. Charles, ed., APOT, vol. II (1913)",
+        "Qumran Hebrew Jubilees fragments"
+      ],
+      "navigationGroup": "pseudepigrapha",
+      "navigationOrder": 3
+    },
+    {
+      "id": "Jasher",
+      "name": "Jasher",
+      "category": "Later Jewish legendary history — not the lost biblical book",
+      "tradition": "Medieval Jewish work; not part of Jewish or Christian biblical canons",
+      "period": "Medieval Hebrew composition; English edition published 1887",
+      "composition": "A medieval Hebrew narrative retelling biblical history with extensive legendary expansions. The 1887 English edition is associated with the translation by Moses Samuel and the publication history of the work.",
+      "language": "Medieval Hebrew; English translation published in 19th century.",
+      "manuscripts": "Printed Hebrew editions from the early modern period; the 1887 English edition derives from a medieval literary work, not an ancient manuscript of the biblical Book of Jashar.",
+      "contents": "Expanded narratives from creation and the patriarchs through the Exodus and conquest, with additional legendary details.",
+      "history": "This work must not be confused with the lost 'Book of Jashar' cited in Joshua 10:13 and 2 Samuel 1:18. The surviving Sefer ha-Yashar is a medieval Jewish compilation that retells biblical narratives with later legendary material. The 1887 English edition is a modern historical artifact in its own right, not evidence that the ancient cited source has been recovered. It is not canonical Scripture.",
+      "canonicalStatus": "Not canonical; medieval Jewish legendary literature.",
+      "translationStatus": "Verse text deferred; identify and verify the precise 1887 edition before importing text.",
+      "sources": [
+        "Sefer ha-Yashar, 1887 English edition; edition-specific bibliographic verification required"
+      ],
+      "navigationGroup": "pseudepigrapha",
+      "navigationOrder": 2
+    },
+    {
+      "id": "2Enoch",
+      "name": "2 Enoch (Slavonic Enoch / Secrets of Enoch)",
+      "category": "Old Testament Pseudepigrapha",
+      "tradition": "Non-canonical in most traditions; manuscript transmission in Christian Slavonic circles",
+      "period": "Date debated; often proposed late 1st century CE to early centuries CE",
+      "composition": "Jewish work attributed to Enoch, preserved through Christian Slavonic transmission; its original setting and date remain debated.",
+      "language": "Survives in Old Church Slavonic; a Greek Vorlage is generally inferred, while the original language and composition history remain debated.",
+      "manuscripts": "Medieval Slavonic manuscripts in shorter and longer recensions; no ancient complete Hebrew or Greek copy survives.",
+      "contents": "Enoch's heavenly ascent, tours of the heavens, angelic hierarchies, creation, ethical instruction, and transmission of knowledge to his sons.",
+      "history": "2 Enoch is distinct from 1 Enoch and 3 Enoch despite the shared attribution. It is known chiefly through medieval Slavonic manuscripts and exists in substantially different recensions. Scholarly proposals for its date and original language remain contested; its Christian manuscript preservation should not be mistaken for proof of Christian authorship of every layer.",
+      "canonicalStatus": "Pseudepigraphal; not part of the Jewish Tanakh or standard Catholic, Protestant, or Eastern Orthodox biblical canons.",
+      "translationStatus": "Verse text deferred; use a separately verified public-domain edition.",
+      "sources": [
+        "R. H. Charles, ed., APOT, vol. II (1913)"
+      ],
+      "navigationGroup": "additional",
+      "navigationOrder": 21
+    },
+    {
+      "id": "3Enoch",
+      "name": "3 Enoch (Hebrew Enoch / Sefer Hekhalot)",
+      "category": "Jewish Hekhalot / Pseudepigraphal literature",
+      "tradition": "Rabbinic mystical literature; not biblical canon",
+      "period": "Late antique composition and redaction, commonly placed in the 5th–6th centuries CE or later",
+      "composition": "A Jewish mystical work in which Rabbi Ishmael encounters the transformed Enoch, identified with the angel Metatron. Its literary layers and dating are debated.",
+      "language": "Hebrew, with Aramaic elements.",
+      "manuscripts": "Medieval Hebrew manuscripts; no evidence of a single original autograph.",
+      "contents": "Heavenly palaces, angelic liturgy, Metatron, divine throne imagery, and the transformation of Enoch.",
+      "history": "3 Enoch belongs to the Hekhalot or 'palaces' mystical literature, not to the same Second Temple corpus as 1 Enoch. Its rabbinic setting and late antique literary forms distinguish it from the older Enochic writings. The numbering '3 Enoch' is a modern scholarly convention and does not imply a continuous three-volume ancient book.",
+      "canonicalStatus": "Jewish mystical/pseudepigraphal work; not canonical Scripture.",
+      "translationStatus": "Verse text deferred; translation and edition rights must be checked separately.",
+      "sources": [
+        "Hekhalot literature studies; manuscript-specific cataloging required"
+      ],
+      "navigationGroup": "additional",
+      "navigationOrder": 22
+    },
+    {
+      "id": "Test12",
+      "name": "Testaments of the Twelve Patriarchs",
+      "category": "Old Testament Pseudepigrapha",
+      "tradition": "Jewish-Christian testamentary collection; non-canonical",
+      "period": "Composite; Jewish materials often dated 2nd–1st centuries BCE with possible Christian editing in later centuries CE",
+      "composition": "A collection of farewell speeches attributed to Jacob's twelve sons. The degree and location of later Christian interpolation remain debated.",
+      "language": "Preserved principally in Greek; Semitic sources or traditions are proposed for portions.",
+      "manuscripts": "Greek manuscripts and ancient versions; Qumran fragments of related Aramaic Levi material illuminate parts of the tradition.",
+      "contents": "Ethical instruction, family history, warnings against vice, eschatological expectations, and hopes for priestly and royal deliverers.",
+      "history": "The Testaments combine ethical exhortation with apocalyptic expectation and patriarchal narrative. Their textual history is complex: some materials have Jewish parallels, while parts of the Greek transmission show Christian interpretation or possible interpolation. They should be treated as a composite corpus rather than a securely datable single-authored work.",
+      "canonicalStatus": "Pseudepigraphal; not in the Jewish Tanakh or standard Christian canons.",
+      "translationStatus": "Verse text deferred; R. H. Charles's edition/translation is a candidate public-domain source.",
+      "sources": [
+        "R. H. Charles, ed., APOT, vol. II (1913)"
+      ],
+      "navigationGroup": "additional",
+      "navigationOrder": 23
+    },
+    {
+      "id": "AssMos",
+      "name": "Assumption of Moses (Testament of Moses)",
+      "category": "Old Testament Pseudepigrapha",
+      "tradition": "Jewish apocalyptic testament preserved by Christian transmission",
+      "period": "Usually dated to the early 1st century CE; proposed dates vary",
+      "composition": "Jewish farewell discourse attributed to Moses, transmitted in an incomplete Latin manuscript. The relation between the titles 'Assumption' and 'Testament' is debated.",
+      "language": "Likely originally Greek or Hebrew/Aramaic; surviving principal witness is Latin.",
+      "manuscripts": "A single incomplete Latin manuscript is the principal direct witness; the ending is lost.",
+      "contents": "Moses commissions Joshua, reviews Israel's history prophetically, and describes future persecution and divine vindication.",
+      "history": "The surviving text is incomplete and its ancient title and relationship to the separately attested Assumption of Moses are disputed. It is important for Jewish apocalyptic interpretation of Israel's history around the turn of the era. The surviving Latin witness was transmitted in a Christian manuscript, but the work's core is generally understood as Jewish.",
+      "canonicalStatus": "Pseudepigraphal; not canonical Scripture.",
+      "translationStatus": "Verse text deferred; R. H. Charles's 1897/1913 translation is a candidate public-domain source.",
+      "sources": [
+        "R. H. Charles, ed., APOT, vol. II (1913)"
+      ],
+      "navigationGroup": "additional",
+      "navigationOrder": 24
+    },
+    {
+      "id": "2Bar",
+      "name": "2 Baruch (Syriac Apocalypse of Baruch)",
+      "category": "Old Testament Pseudepigrapha",
+      "tradition": "Jewish apocalypse preserved in Syriac Christian manuscripts",
+      "period": "Late 1st to early 2nd century CE, often after 70 CE",
+      "composition": "Jewish apocalypse attributed to Baruch, Jeremiah's scribe, responding to the destruction of Jerusalem and the Temple.",
+      "language": "Probably originally Hebrew; preserved completely in Syriac, with Greek fragments.",
+      "manuscripts": "Syriac manuscript tradition and a Greek fragment; textual history is not fully recoverable.",
+      "contents": "Visions, lament, dialogue about suffering and the law, the coming age, resurrection, and hope after Jerusalem's destruction.",
+      "history": "2 Baruch is closely related in historical setting to 4 Ezra and reflects Jewish theological responses to the Roman destruction of the Second Temple in 70 CE. It survives in Syriac and is distinct from 3 Baruch. The attribution to Baruch is literary and places the work in the biblical past to interpret a later catastrophe.",
+      "canonicalStatus": "Jewish pseudepigraphon; not part of the Jewish Tanakh or standard Christian canons.",
+      "translationStatus": "Verse text deferred; R. H. Charles's translation is a candidate public-domain source.",
+      "sources": [
+        "R. H. Charles, ed., APOT, vol. II (1913)"
+      ],
+      "navigationGroup": "additional",
+      "navigationOrder": 25
+    },
+    {
+      "id": "3Bar",
+      "name": "3 Baruch (Greek Apocalypse of Baruch)",
+      "category": "Old Testament Pseudepigrapha",
+      "tradition": "Apocalyptic work preserved in Greek and Slavonic Christian transmission",
+      "period": "Likely late 1st to 3rd century CE; date and redaction debated",
+      "composition": "A heavenly-journey apocalypse attributed to Baruch, with Jewish and possibly Christian editorial features.",
+      "language": "Greek; Slavonic versions also survive.",
+      "manuscripts": "Greek and Slavonic manuscript traditions, with variations that complicate reconstruction.",
+      "contents": "Baruch's ascent through the heavens, cosmic visions, angelic guides, and explanations of creation and human destiny.",
+      "history": "3 Baruch is distinct from the Syriac Apocalypse of Baruch (2 Baruch). Its textual form includes features that have prompted debate about Jewish composition and Christian editing. It should be cataloged independently rather than treated as a sequel or alternate translation of 2 Baruch.",
+      "canonicalStatus": "Pseudepigraphal; not canonical Scripture.",
+      "translationStatus": "Verse text deferred; R. H. Charles's translation is a candidate public-domain source.",
+      "sources": [
+        "R. H. Charles, ed., APOT, vol. II (1913)"
+      ],
+      "navigationGroup": "additional",
+      "navigationOrder": 26
+    },
+    {
+      "id": "ApocAbr",
+      "name": "Apocalypse of Abraham",
+      "category": "Old Testament Pseudepigrapha",
+      "tradition": "Jewish apocalypse preserved in Slavonic Christian manuscripts",
+      "period": "Probably late 1st or early 2nd century CE",
+      "composition": "Jewish apocalypse attributed to Abraham, combining an account of his rejection of idols with a heavenly vision.",
+      "language": "Likely originally composed in Greek or a Semitic language; preserved in Slavonic.",
+      "manuscripts": "Slavonic manuscript tradition; no complete ancient-language original survives.",
+      "contents": "Abraham's departure from idolatry, heavenly ascent, visions of creation and history, and a vision concerning Jerusalem and the nations.",
+      "history": "The work reflects Jewish apocalyptic interpretation after the destruction of the Second Temple, though its exact date and textual development remain debated. It is preserved through Slavonic Christian manuscripts, which complicates reconstruction of its earliest form. The title refers to Abraham as visionary, not to a canonical biblical book.",
+      "canonicalStatus": "Pseudepigraphal; not canonical Scripture.",
+      "translationStatus": "Verse text deferred; check edition and translation provenance before import.",
+      "sources": [
+        "R. H. Charles, ed., APOT, vol. II (1913)"
+      ],
+      "navigationGroup": "additional",
+      "navigationOrder": 27
+    },
+    {
+      "id": "AscIsa",
+      "name": "Ascension of Isaiah",
+      "category": "Jewish-Christian apocalyptic literature",
+      "tradition": "Composite work preserved by Christian traditions; non-canonical",
+      "period": "Composite, with proposed layers from the 1st–3rd centuries CE",
+      "composition": "A composite work combining the Martyrdom of Isaiah with a heavenly-journey vision. The latter contains clear Christian material; the relationship of layers is debated.",
+      "language": "Greek is generally reconstructed for parts; complete or substantial witnesses survive in Ethiopic and other versions.",
+      "manuscripts": "Ethiopic, Latin, Slavonic, and fragmentary Greek witnesses.",
+      "contents": "Isaiah's martyrdom under Manasseh and a vision of the seven heavens, the Beloved, and the descent and ascent of the heavenly redeemer.",
+      "history": "The Ascension of Isaiah preserves materials from different periods and communities. Its martyrdom narrative has Jewish affinities, while the heavenly vision is explicitly Christian in its surviving form. It is therefore best labeled composite Jewish-Christian apocalyptic literature rather than assigned a simplistic single date or origin.",
+      "canonicalStatus": "Non-canonical; transmitted in some ancient Christian manuscript traditions.",
+      "translationStatus": "Verse text deferred; R. H. Charles's edition is a candidate public-domain source.",
+      "sources": [
+        "R. H. Charles, ed., APOT, vol. II (1913)"
+      ],
+      "navigationGroup": "additional",
+      "navigationOrder": 28
+    },
+    {
+      "id": "PsSol",
+      "name": "Psalms of Solomon",
+      "category": "Second Temple Jewish literature",
+      "tradition": "Jewish poetic collection; non-canonical in most traditions",
+      "period": "1st century BCE, with material often associated with the Roman conquest of Jerusalem in 63 BCE",
+      "composition": "Eighteen psalms attributed to Solomon, composed by an anonymous Jewish group; the attribution is literary.",
+      "language": "Originally Hebrew is widely proposed; preserved in Greek and Syriac.",
+      "manuscripts": "Greek manuscripts and Syriac translation witnesses.",
+      "contents": "Prayer, repentance, critique of corrupt rulers, expectation of a Davidic Messiah, and hope for righteous restoration.",
+      "history": "The Psalms of Solomon are valuable evidence for Jewish responses to the Hasmonean period and Roman intervention under Pompey. They express hopes for a righteous Davidic ruler and condemn corrupt leadership. Although transmitted with biblical and related writings in some manuscript settings, they are not part of the Jewish Tanakh or most Christian canons.",
+      "canonicalStatus": "Non-canonical Jewish religious literature; not to be confused with canonical Psalms.",
+      "translationStatus": "Verse text deferred; R. H. Charles's 1913 translation is a candidate public-domain source.",
+      "sources": [
+        "R. H. Charles, ed., APOT, vol. II (1913)"
+      ],
+      "navigationGroup": "additional",
+      "navigationOrder": 29
+    },
+    {
+      "id": "SibOr",
+      "name": "Sibylline Oracles",
+      "category": "Jewish and Christian pseudepigraphal collection",
+      "tradition": "Composite prophetic collection; not canonical",
+      "period": "Composite layers from the 2nd century BCE through late antiquity",
+      "composition": "A collection of Greek hexameter oracles written under the persona of the Sibyl; Jewish and Christian sections are interwoven with other material.",
+      "language": "Greek",
+      "manuscripts": "Medieval Greek manuscripts preserving books of varied date and origin.",
+      "contents": "Prophecy, creation, moral exhortation, historical retrospection, judgment, and expectations concerning rulers and the end of the age.",
+      "history": "The Sibylline Oracles are not one book written at one time. Jewish authors adapted the respected Greek Sibyl persona for monotheistic prophecy, and Christian authors later expanded and reworked the collection. Individual books require separate dating and source notes; a single date for the whole collection would be misleading.",
+      "canonicalStatus": "Pseudepigraphal collection; not canonical Scripture.",
+      "translationStatus": "Verse text deferred; verify the specific book and edition.",
+      "sources": [
+        "R. H. Charles, ed., APOT, vol. II (1913)"
+      ],
+      "navigationGroup": "additional",
+      "navigationOrder": 30
+    },
+    {
+      "id": "LetAris",
+      "name": "Letter of Aristeas",
+      "category": "Hellenistic Jewish literature",
+      "tradition": "Jewish apologetic narrative; not biblical canon",
+      "period": "Usually dated to the 2nd century BCE",
+      "composition": "A Greek Jewish literary narrative, written under the pseudonym of Aristeas, describing the translation of Jewish law into Greek at Alexandria.",
+      "language": "Greek",
+      "manuscripts": "Greek manuscript tradition; later translations and quotations.",
+      "contents": "The legendary account of the Septuagint's origins, the Alexandrian court, Jewish translators, and descriptions of Jewish law and customs.",
+      "history": "The Letter of Aristeas is an important witness to how some Hellenistic Jews explained and defended the Greek translation of the Torah. Its account of seventy-two translators is a foundational form of the later Septuagint origin legend, but it is not a neutral administrative record. Modern scholarship distinguishes its literary claims from independently established translation history.",
+      "canonicalStatus": "Non-canonical Hellenistic Jewish literature; not a pseudonymous biblical prophecy in the narrow sense.",
+      "translationStatus": "Verse text deferred; R. H. Charles-era public-domain edition is a candidate source.",
+      "sources": [
+        "R. H. Charles, ed., APOT, vol. II (1913)"
+      ],
+      "navigationGroup": "additional",
+      "navigationOrder": 31
+    },
+    {
+      "id": "AdamEve",
+      "name": "Life of Adam and Eve (Apocalypse of Moses and related versions)",
+      "category": "Jewish Pseudepigrapha",
+      "tradition": "Jewish Adam literature preserved in multiple later versions",
+      "period": "Core traditions often dated to the 1st century CE; surviving recensions later",
+      "composition": "A family of related but distinct Greek, Latin, Armenian, Georgian, and Slavonic narratives about Adam and Eve; titles and contents differ by recension.",
+      "language": "Multiple language traditions; Greek and Latin forms are especially important.",
+      "manuscripts": "Several recensions in different languages; no single version represents every form of the work.",
+      "contents": "Adam and Eve after Eden, repentance, Satan's deception, illness and death, burial, and hopes for restoration.",
+      "history": "'Life of Adam and Eve' is a modern umbrella label for related but non-identical texts. The Greek Apocalypse of Moses and Latin Life of Adam and Eve share material but differ in important ways. Catalog entries and future verse text must identify the particular recension rather than silently combine them into one harmonized book.",
+      "canonicalStatus": "Pseudepigraphal; not canonical Scripture.",
+      "translationStatus": "Verse text deferred; choose and identify one recension before importing text.",
+      "sources": [
+        "R. H. Charles, ed., APOT, vol. II (1913)"
+      ],
+      "navigationGroup": "additional",
+      "navigationOrder": 32
+    },
+    {
+      "id": "MartIsa",
+      "name": "Martyrdom of Isaiah",
+      "category": "Jewish-Christian pseudepigraphal literature",
+      "tradition": "Non-canonical narrative preserved in Christian transmission",
+      "period": "Jewish core often dated to the 1st century CE; Christian framing later",
+      "composition": "Narrative of Isaiah's martyrdom, later incorporated into the composite Ascension of Isaiah. The textual relationship between independent and combined forms is complex.",
+      "language": "Likely Greek or a Semitic language at earlier stages; Ethiopic and other versions preserve the work.",
+      "manuscripts": "Ethiopic and other Christian versional witnesses; text also transmitted within Ascension of Isaiah.",
+      "contents": "Isaiah's conflict with King Manasseh, prophecy, arrest, and traditional account of his death by sawing.",
+      "history": "The Martyrdom of Isaiah is often distinguished from the heavenly-journey sections of the Ascension of Isaiah. Its Jewish narrative core may be earlier than the Christian redaction that transmits it. Because the work survives in a composite manuscript history, future text imports should document whether they represent the standalone martyrdom or the larger Ascension.",
+      "canonicalStatus": "Pseudepigraphal; not canonical Scripture.",
+      "translationStatus": "Verse text deferred; R. H. Charles's translation is a candidate public-domain source.",
+      "sources": [
+        "R. H. Charles, ed., APOT, vol. II (1913)"
+      ],
+      "navigationGroup": "additional",
+      "navigationOrder": 33
+    },
+    {
+      "id": "Ahikar",
+      "name": "Story of Ahikar",
+      "category": "Ancient Near Eastern wisdom literature",
+      "tradition": "Aramaic wisdom tale; related to Jewish literary history but not a biblical pseudepigraphon in a strict sense",
+      "period": "Story attested in Aramaic by the 5th century BCE; older traditions possible",
+      "composition": "A wisdom narrative about Ahikar, a court official falsely accused by his adopted son. It circulated across several languages and cultures.",
+      "language": "Aramaic witness from Elephantine; later Syriac, Arabic, Armenian, and other versions.",
+      "manuscripts": "Aramaic papyrus fragments from Elephantine (5th century BCE) and a broad later versional tradition.",
+      "contents": "Court intrigue, false accusation, rescue, proverbial wisdom, and instruction of a wayward pupil.",
+      "history": "The Aramaic papyrus from Elephantine provides unusually early evidence for the Ahikar story and its wisdom sayings. Later versions circulated widely in the Near East and Mediterranean. R. H. Charles included it among related writings, while noting that it does not fit neatly within the strict chronological definition of Old Testament Pseudepigrapha. This reader labels it related literature, not Scripture.",
+      "canonicalStatus": "Non-canonical ancient Near Eastern/Jewish-related wisdom narrative.",
+      "translationStatus": "Verse text deferred; identify the selected language/version and public-domain edition.",
+      "sources": [
+        "R. H. Charles, ed., APOT, vol. II (1913)",
+        "Elephantine Aramaic papyrus witnesses"
+      ],
+      "navigationGroup": "additional",
+      "navigationOrder": 34
+    },
+    {
+      "id": "Zadokite",
+      "name": "Damascus Document (Fragments of a Zadokite Work)",
+      "category": "Dead Sea Scrolls / Second Temple Jewish literature",
+      "tradition": "Sectarian Jewish document; not biblical canon",
+      "period": "Core composition likely 2nd–1st centuries BCE; copies from Qumran and Cairo Geniza witnesses",
+      "composition": "A sectarian rule and admonition text associated with a Jewish movement often connected with the Qumran community; precise group identity remains debated.",
+      "language": "Hebrew",
+      "manuscripts": "Cairo Geniza manuscripts and multiple Hebrew fragments from Qumran.",
+      "contents": "Community origins, covenant, law, discipline, leadership, and eschatological expectation.",
+      "history": "The Damascus Document is a major source for Second Temple Jewish sectarian history. Fragments among the Dead Sea Scrolls established that the work existed in the late Second Temple period, while medieval Cairo Geniza manuscripts preserve longer copies. Older scholarship called it the 'Fragments of a Zadokite Work.' It is not a biblical book and should be kept distinct from later Dead Sea Scrolls translations with separate rights.",
+      "canonicalStatus": "Non-canonical Second Temple Jewish sectarian literature.",
+      "translationStatus": "Verse text deferred; R. H. Charles's 1913 rendering is a candidate public-domain source, but later translations require separate rights review.",
+      "sources": [
+        "R. H. Charles, ed., APOT, vol. II (1913)",
+        "Qumran Hebrew fragments and Cairo Geniza manuscripts"
+      ],
+      "navigationGroup": "additional",
+      "navigationOrder": 35
+    },
+    {
+      "id": "OdesSol",
+      "name": "Odes of Solomon",
+      "category": "Early Jewish-Christian hymn collection",
+      "tradition": "Early Christian/Jewish-Christian hymnic literature; non-canonical",
+      "period": "Usually placed in the late 1st or early 2nd century CE; proposals vary",
+      "composition": "A collection of forty-two hymns. The community and exact religious setting are debated; the work has strong early Christian features.",
+      "language": "Originally Syriac is widely argued; Greek and Coptic witnesses survive for portions.",
+      "manuscripts": "Syriac manuscript tradition, with Greek and Coptic fragments.",
+      "contents": "Hymns of praise, salvation, divine indwelling, living water, light, and the work of the Messiah.",
+      "history": "The Odes are an early non-canonical hymn collection transmitted in Syriac, with fragments in other languages. Their precise relationship to Jewish and Christian communities is debated; the collection should not be casually classified as either wholly Jewish or wholly Christian without qualification. It is distinct from the biblical Psalms and from the Odes appended to some Greek biblical manuscripts.",
+      "canonicalStatus": "Non-canonical hymn collection.",
+      "translationStatus": "Verse text deferred; early public-domain translations exist but must be checked against the intended recension.",
+      "sources": [
+        "J. Rendel Harris, The Odes and Psalms of Solomon (1909)",
+        "R. H. Charles, ed., APOT, vol. II (1913)"
+      ],
+      "navigationGroup": "additional",
+      "navigationOrder": 36
+    }
+  ]
+}
