@@ -13,116 +13,7 @@ const $ = (sel) => document.querySelector(sel);
 const $$ = (sel) => document.querySelectorAll(sel);
 
 /* ---------- Extra books with history (from your screenshot) ---------- */
-const EXTRA_BOOKS = [
-  {
-    id: "Tobit",
-    name: "Tobit",
-    category: "Deuterocanonical",
-    history: "3rd–2nd century BCE. Story of a righteous Israelite family in exile and the angel Raphael. Accepted as canonical by Catholic and Orthodox churches; placed in the Apocrypha by Protestants."
-  },
-  {
-    id: "Judith",
-    name: "Judith",
-    category: "Deuterocanonical",
-    history: "2nd century BCE. Heroic account of a Jewish widow who saves her people by defeating an enemy general. Deuterocanonical in Catholic and Orthodox Bibles."
-  },
-  {
-    id: "Wis",
-    name: "Wisdom of Solomon",
-    category: "Deuterocanonical",
-    history: "1st century BCE (Greek). Wisdom literature written in the name of Solomon. Emphasizes immortality of the soul and divine wisdom."
-  },
-  {
-    id: "Sir",
-    name: "Ecclesiasticus (Sirach)",
-    category: "Deuterocanonical",
-    history: "c. 180 BCE, written by Jesus ben Sirach. Extensive wisdom collection. One of the longest deuterocanonical books."
-  },
-  {
-    id: "Bar",
-    name: "Baruch",
-    category: "Deuterocanonical",
-    history: "Attributed to Baruch, scribe of Jeremiah. Contains confession, wisdom poems, and often the Letter of Jeremiah."
-  },
-  {
-    id: "EpJer",
-    name: "Letter of Jeremiah",
-    category: "Deuterocanonical",
-    history: "Often attached to Baruch. A strong warning against idolatry, presented as a letter from Jeremiah to the exiles."
-  },
-  {
-    id: "PrAzar",
-    name: "Prayer of Azariah",
-    category: "Deuterocanonical",
-    history: "Addition to the Book of Daniel (in the fiery furnace). Prayer and song of the three young men."
-  },
-  {
-    id: "Sus",
-    name: "Susanna",
-    category: "Deuterocanonical",
-    history: "Addition to Daniel. Story of a righteous woman falsely accused of adultery and vindicated by Daniel’s wisdom."
-  },
-  {
-    id: "Bel",
-    name: "Bel and the Dragon",
-    category: "Deuterocanonical",
-    history: "Two short additions to Daniel that mock idolatry: the story of Bel and the story of the dragon."
-  },
-  {
-    id: "1Macc",
-    name: "1 Maccabees",
-    category: "Deuterocanonical",
-    history: "Historical account of the Maccabean revolt against the Seleucids in the 2nd century BCE. Important for Jewish history."
-  },
-  {
-    id: "2Macc",
-    name: "2 Maccabees",
-    category: "Deuterocanonical",
-    history: "Parallel account of the Maccabean period with stronger theological emphasis (resurrection, intercession of the saints)."
-  },
-  {
-    id: "1Esd",
-    name: "1 Esdras",
-    category: "Apocrypha",
-    history: "Greek work overlapping Ezra–Nehemiah with additional material (including the famous debate of the three young men)."
-  },
-  {
-    id: "2Esd",
-    name: "2 Esdras (4 Ezra)",
-    category: "Apocrypha",
-    history: "Jewish apocalypse (late 1st century CE) with Christian additions. Highly influential in early Christianity."
-  },
-  {
-    id: "PrMan",
-    name: "Prayer of Manasseh",
-    category: "Apocrypha",
-    history: "Short penitential prayer attributed to King Manasseh of Judah. Found in some liturgical traditions."
-  },
-  {
-    id: "AddEsth",
-    name: "Additions to Esther",
-    category: "Deuterocanonical",
-    history: "Extra sections found in the Greek version of Esther (prayers, dreams, and expanded court scenes) not present in the Hebrew text."
-  },
-  {
-    id: "Enoch",
-    name: "1 Enoch",
-    category: "Pseudepigrapha",
-    history: "3rd–1st century BCE. Composite work including the Book of the Watchers, Parables, Astronomical Book, and Epistle of Enoch. Quoted in the New Testament (Jude). Survived complete only in Ethiopic. R.H. Charles 1917 translation is public domain."
-  },
-  {
-    id: "Jub",
-    name: "Jubilees",
-    category: "Pseudepigrapha",
-    history: "2nd century BCE. Retelling of Genesis and part of Exodus arranged by 49-year jubilee cycles. Strong emphasis on calendar and law. R.H. Charles translation is public domain."
-  },
-  {
-    id: "Jasher",
-    name: "Book of Jasher",
-    category: "Pseudepigrapha / Legendary",
-    history: "This is the 1887 English translation of a medieval Hebrew work (Sefer ha-Yashar). It is not the lost ancient ‘Book of Jasher’ mentioned in Joshua and 2 Samuel. Public domain. Contains expanded patriarchal narratives."
-  }
-];
+let EXTRA_BOOKS = [];
 
 /* ---------- Init ---------- */
 async function init() {
@@ -131,6 +22,10 @@ async function init() {
     const res = await fetch('data/kjv.json');
     if (!res.ok) throw new Error('Failed to load Bible data');
     bible = await res.json();
+    const extraRes = await fetch('data/extra-books.json');
+    if (!extraRes.ok) throw new Error('Failed to load extra-book catalog');
+    const extraCatalog = await extraRes.json();
+    EXTRA_BOOKS = Array.isArray(extraCatalog.books) ? extraCatalog.books : [];
     buildBookList();
     loadBook('Gen', 1);
     setupEventListeners();
@@ -231,13 +126,37 @@ function loadExtraBook(book) {
     $('.main').insertBefore(hist, $('.chapter-nav'));
   }
   hist.style.display = 'block';
-  hist.innerHTML = `
-    <div class="history-label">${book.category}</div>
-    <p>${book.history}</p>
-    <p class="history-note"><strong>Text status:</strong> Public-domain English translations exist (R.H. Charles and older editions). 
-    Full verse text can be added to this reader in the same JSON format as the KJV data. 
-    Currently showing history and structure only.</p>
-  `;
+  hist.replaceChildren();
+  const addHistoryField = (label, value, className = '') => {
+    if (!value) return;
+    const section = document.createElement('p');
+    if (className) section.className = className;
+    const strong = document.createElement('strong');
+    strong.textContent = label + ': ';
+    section.append(strong, document.createTextNode(value));
+    hist.appendChild(section);
+  };
+  const label = document.createElement('div');
+  label.className = 'history-label';
+  label.textContent = book.category || 'Related historical literature';
+  hist.appendChild(label);
+  addHistoryField('Tradition / reception', book.tradition);
+  addHistoryField('Approximate period', book.period);
+  addHistoryField('Composition and attribution', book.composition);
+  addHistoryField('Language', book.language);
+  addHistoryField('Manuscripts and witnesses', book.manuscripts);
+  addHistoryField('Contents', book.contents);
+  addHistoryField('Historical notes', book.history);
+  addHistoryField('Canonical status', book.canonicalStatus);
+  addHistoryField('Text status', book.translationStatus || 'Metadata only; verse text has not been added.');
+  if (Array.isArray(book.sources) && book.sources.length) {
+    const sourceSection = document.createElement('p');
+    const strong = document.createElement('strong');
+    strong.textContent = 'Historical / edition references: ';
+    sourceSection.appendChild(strong);
+    sourceSection.appendChild(document.createTextNode(book.sources.join('; ')));
+    hist.appendChild(sourceSection);
+  }
 
   updateURL();
   updateBookmarkButton();
