@@ -22,6 +22,7 @@ async function init() {
     const res = await fetch('data/kjv.json');
     if (!res.ok) throw new Error('Failed to load Bible data');
     bible = await res.json();
+    applyCanonicalPunctuationCorrections(bible);
     const extraRes = await fetch('data/extra-books.json');
     if (!extraRes.ok) throw new Error('Failed to load extra-book catalog');
     const extraCatalog = await extraRes.json();
@@ -41,6 +42,34 @@ async function init() {
 function showLoading(show) {
   const el = $('#loading');
   if (el) el.style.display = show ? 'block' : 'none';
+}
+
+
+/* ---------- Verified punctuation normalization ---------- */
+/* Correct only the three exact whitespace defects found by the 2026-11-21
+   source audit. The original wording and punctuation marks are preserved. */
+function applyCanonicalPunctuationCorrections(data) {
+  const corrections = [
+    { book: 'Num', chapter: 15, verse: 39,
+      source: 'And it shall be unto you for a fringe, that ye may look upon it, and remember all the commandments of the Lord, and do them ; and that ye seek not after your own heart and your own eyes, after which ye use to go a whoring:',
+      corrected: 'And it shall be unto you for a fringe, that ye may look upon it, and remember all the commandments of the Lord, and do them; and that ye seek not after your own heart and your own eyes, after which ye use to go a whoring:' },
+    { book: 'Eccl', chapter: 7, verse: 16,
+      source: 'Be not righteous over much; neither make thyself over wise: why shouldest thou destroy thyself ?',
+      corrected: 'Be not righteous over much; neither make thyself over wise: why shouldest thou destroy thyself?' },
+    { book: 'Isa', chapter: 2, verse: 22,
+      source: 'Cease ye from man, whose breath is in his nostrils: for wherein is he to be accounted of ?',
+      corrected: 'Cease ye from man, whose breath is in his nostrils: for wherein is he to be accounted of?' }
+  ];
+
+  for (const item of corrections) {
+    const book = data.books.find(entry => entry.book === item.book);
+    const chapter = book?.chapters.find(entry => entry.chapter === item.chapter);
+    const verse = chapter?.verses.find(entry => entry.number === item.verse);
+    if (!verse || verse.text !== item.source) {
+      throw new Error(`Canonical text mismatch at ${item.book} ${item.chapter}:${item.verse}; refusing automatic correction.`);
+    }
+    verse.text = item.corrected;
+  }
 }
 
 /* ---------- Book list ---------- */
