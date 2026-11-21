@@ -1,7 +1,7 @@
 {
-  "name": "KJV Reader — Text Only",
-  "short_name": "KJV Reader",
-  "description": "Clean King James Version Bible reader inspired by the Aristotle Reader. Offline-capable text-only study app.",
+  "name": "KJV, Apocrypha & Pseudepigrapha Reader",
+  "short_name": "KJV + Apocrypha",
+  "description": "King James Version reader with a labeled Apocrypha and Pseudepigrapha historical catalog. Offline-capable text-only study app.",
   "start_url": "./",
   "display": "standalone",
   "background_color": "#f8f6f1",
