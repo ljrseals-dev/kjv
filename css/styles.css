@@ -480,20 +480,41 @@ button.active {
   margin-bottom: 0 !important;
 }
 
-.book-list li.extra-book {
-  color: #2e7d32;
+/* Extra-book sections follow the visual grouping in the reference screen. */
+.book-list li.extra-section-heading {
+  padding: 0.8rem 1.25rem 0.25rem;
+  margin-top: 0.2rem;
+  color: var(--text-muted);
+  font-family: var(--font-sans);
+  font-size: 0.68rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  cursor: default;
 }
 
-[data-theme="dark"] .book-list li.extra-book {
-  color: #81c784;
-}
-
-
-/* Visible classification labels for extra-book navigation */
 .book-list li.extra-book {
   display: flex;
   flex-direction: column;
   gap: 0.05rem;
+}
+
+.book-list li.extra-book.apocrypha {
+  color: #2e7d32;
+}
+
+[data-theme="dark"] .book-list li.extra-book.apocrypha {
+  color: #81c784;
+}
+
+.book-list li.extra-book.pseudepigrapha,
+.book-list li.extra-book.additional {
+  color: #77736d;
+}
+
+[data-theme="dark"] .book-list li.extra-book.pseudepigrapha,
+[data-theme="dark"] .book-list li.extra-book.additional {
+  color: #aaa49b;
 }
 
 .extra-book-name {
